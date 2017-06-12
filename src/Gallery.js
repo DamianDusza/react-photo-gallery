@@ -60,7 +60,7 @@ class Gallery extends React.Component {
                     break;
                 }
 
-                let src = this.props.photos[k].src, srcset, sizes;
+                let src = this.props.photos[k].src, srcset, sizes, href;
                 if (this.props.photos[k].srcset) {
                     srcset = this.props.photos[k].srcset.join();
                 }
