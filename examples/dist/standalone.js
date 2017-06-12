@@ -1148,7 +1148,8 @@ var Gallery = (function (_React$Component) {
 
                     var src = _this.props.photos[k].src,
                         srcset = undefined,
-                        sizes = undefined;
+                        sizes = undefined,
+                        href = undefined;
                     if (_this.props.photos[k].srcset) {
                         srcset = _this.props.photos[k].srcset.join();
                     }
